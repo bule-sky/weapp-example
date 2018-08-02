@@ -13,11 +13,11 @@
 
 <img src="https://github.com/bule-sky/weapp-example/blob/master/weapp-ArborDay/Screenshots/home.png" width="320px" style="display:inline;">
     
-<img src="./screenshots/first-page.png" width="320px" style="display:inline;">
+<img src="https://github.com/bule-sky/weapp-example/blob/master/weapp-ArborDay/Screenshots/first-page.png" width="320px" style="display:inline;">
 
-<img src="/screenshots/animate-page.png" width="320px" style="display:inline;">
+<img src="https://github.com/bule-sky/weapp-example/blob/master/weapp-ArborDay/Screenshots/animate-page.png" width="320px" style="display:inline;">
 
-<img src="./screenshots/more-page.png" width="320px" style="display:inline;">
+<img src="https://github.com/bule-sky/weapp-example/blob/master/weapp-ArborDay/Screenshots/more-page.png" width="320px" style="display:inline;">
 
 ### 开发环境：
 微信web开发者工具
