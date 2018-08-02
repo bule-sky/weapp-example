@@ -1,0 +1,40 @@
+{
+  "pages":[    
+    "pages/movie/movie",
+    "pages/recommend/recommend",
+    "pages/search/search",
+    "pages/detail/detail"
+  ],
+  "tabBar": {
+    "color": "#ddd",
+    "borderStyle": "black",
+    "backgroundColor": "black",
+    "selectedColor": "#3cc51f",
+    "list": [
+      {
+        "pagePath": "pages/movie/movie",
+        "text": "影院热映",
+        "iconPath": "static/img/dy-1.png",
+        "selectedIconPath": "static/img/dy.png"
+      },
+      {
+        "pagePath": "pages/recommend/recommend",
+        "text": "电影推荐",
+        "iconPath": "static/img/tj-1.png",
+        "selectedIconPath": "static/img/tj.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "查询电影",
+        "iconPath": "static/img/search-1.png",
+        "selectedIconPath": "static/img/search.png"
+      }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2B2B2B",
+    "navigationBarTitleText": "小程序电影院",
+    "navigationBarTextStyle":"white"
+  }
+}

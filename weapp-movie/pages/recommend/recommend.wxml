@@ -1,0 +1,4 @@
+<view class="content">
+	<import src="../template/movieTpl"/>
+	<template is="movies" data="{{movies}}"/>
+</view>
