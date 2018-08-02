@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/config/config"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#369",
+    "navigationBarTitleText": "Shadowmon辩论赛计时器",
+    "navigationBarTextStyle":"white"
+  },
+    "tabBar": {
+      "color": "#ddd",
+      "selectedColor": "#3cc51f",
+      "borderStyle": "white",
+      "backgroundColor": "#04477c",
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "iconPath": "static/img/time.png",
+          "selectedIconPath": "static/img/time-1.png",
+          "text": "首页"
+        },
+        {
+          "pagePath": "pages/config/config",
+          "iconPath": "static/img/config.png",
+          "selectedIconPath": "static/img/config-1.png",
+          "text": "其他"
+        }
+      ]
+    }
+}
