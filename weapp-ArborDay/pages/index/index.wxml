@@ -1,0 +1,22 @@
+<view class="content">
+	<view class="center_box show" wx:if="{{isShow}}">
+		<view class="pail"></view>
+		<button bindtap="begin" class="BeginBtn"></button>
+	</view>
+	<view wx:else class="center_box  {{isShow == false ? 'show' : ''}}">
+		<view class="top-box">
+		  <view class="timer fl">{{Timer}}</view>
+		  <view class="perf score fr">
+		    <span>{{Number}}</span>
+		  </view>
+		</view>
+		<view class="hand {{isStatus == true ? 'down' : ''}}">
+			<view class="water-wr" style="height: 300px;" wx:if="{{isStatus}}">
+      	<view animation="{{animationData}}" class="water"></view>
+			</view>
+		</view>
+
+			<view class="tree {{isVary == true ? 'wet' : ''}}"></view>
+		<button bindtap="pour" class="StartBtn"></button>
+	</view>
+</view>
