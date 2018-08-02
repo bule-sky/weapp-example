@@ -11,7 +11,7 @@
 
 ### 项目截图:
 
-<img src="./screenshots/home.png" width="320px" style="display:inline;">
+<img src="https://github.com/bule-sky/weapp-example/blob/master/weapp-ArborDay/Screenshots/home.png" width="320px" style="display:inline;">
     
 <img src="./screenshots/first-page.png" width="320px" style="display:inline;">
 
