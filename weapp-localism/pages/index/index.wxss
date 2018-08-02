@@ -1,0 +1,125 @@
+page {
+	background-color: #111302;
+}
+
+.content {
+	margin-top: 30px;
+}
+.title,.tips {
+	color: white;
+}
+.title {
+	font-size: 36rpx;
+	margin-bottom: 20px;
+}
+.tips {
+	font-size: 30rpx;
+}
+.tips span {
+	color: rgb(253, 203, 1);
+}
+.center {
+	text-align: center;
+}
+.panel-body {
+  background: rgba(255,255,255,0.7);
+  padding: 15px 15px 20px;
+	margin: 100px auto 0;
+  width: 600rpx;
+  height: auto;
+  border-radius: 6px;
+  position: relative;
+}
+.edit-ico {
+	position: absolute;
+	top: -40px;
+	left: 50%;
+	margin-top: -10px;
+	margin-left: -40px;
+	width: 80px;
+	height: 80px;
+	background-color: #347433;
+	font-size: 34px;
+	line-height: 80px;
+	color: #fff;
+	border-radius: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAUAAA/+4ADkFkb2JlAGTAAAAAAf/bAIQAAgICAgICAgICAgMCAgIDBAMCAgMEBQQEBAQEBQYFBQUFBQUGBgcHCAcHBgkJCgoJCQwMDAwMDAwMDAwMDAwMDAEDAwMFBAUJBgYJDQsJCw0PDg4ODg8PDAwMDAwPDwwMDAwMDA8MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwM/8AAEQgAKAA+AwERAAIRAQMRAf/EAJIAAQACAwEBAAAAAAAAAAAAAAAGCAEFCQMHAQEAAgMBAQAAAAAAAAAAAAAAAwQBBQYCBxAAAQMDAwEHAgcAAAAAAAAAAQIDBAUGBwAREhMhMUEyQhQIIxVRYXGBchYXEQACAQIFAgUBBQkBAAAAAAABAhEAAyExEiIEQVFhMkITBXHwkbFSFIGhwdHhcoLCwyT/2gAMAwEAAhEDEQA/AKx64Svm9NKVgKTsD4Hv7dKVLq3Yt127btpXVWaV7OhXw3Jetif12HPcoiOBp49NtxTjfFRA+olO/huNSXrTWXCOIJVWH9rCVP7e2fepRZc2RejYSQD4qYYRngf6VEQoEA92/fqOoazpWaaUppSmlKfl4+OlKunEy1h3J2BGrByzEftu/MY01LGOLopMRUl6a0jZDcYp5AbnsDiXFpQR9RKkqGw2nPvW+bZW4BHJXSkAYXF8o+7r6kbdbDBmtVt+ByrDcduNycEGplYZqTjEdyforDBipUXKiVTsrI9JZwrQPkkzW7Pw5GdcZt2ox4UJ16HGmqTJfacDB6za1ntKZHJ1CQooaXxKD6W2P1irzTBCADsVTBVLLhAyYjcJGorOsVGtchOJbDAixqJBABILEsxjOTiV1YEAlA0aa9vk3mSyL6ctfHmLaAxSMY4zS/Gt2Y2hxDsx17il54IWdw2oo3BWC4skuLPJXEUObyjzL/ukQANKjLbhmOmQ0qPKM8TC3vkOVYSyOLYGwGSe7Qcu+Zlj5jlgJNU9QVpaaUppSmlK2dEqf2Ws0qsfb4VW+1S2Zf2upM9eHJ6LgX0ZDW6eba9uK07jdO41NYve04bSGjowkfdWCJq01IbypleQM52LiKybRp+Fg3U302/SU0unznobyZS0lhbq/cvNI3WripJSgbAhZQlV2293jMOfpAUQsZLG4MwGfq0s4yw0+ViNoEufJbLdtQUkyoiThCnMMcJCnA4hvNFS+RezleXc+WKNFmZHxpkB9hjO+I6lIXJnUaW6oIYejuecNJUB7GUgDp7BlexABytpVUWyGuce4+0jG7aut/0OQJ2312PuqZua10tykgsFi7bYnQ9teo6hBnI3WG3LtrV5qte4cF2azY68WWnVLFvBlT9rZSqtv8LqYEpXuvZTZQdAYmR0ngU8NikHj6kpg+QD2v8Ay3FQFYh0Ee4FadQbx8rjMAx5SHPu7ZPEta0thrdwYa132yy+RvyuuYORIJGIKCleqVaOmlKaUppSmlK+53F8hcgXBiu3cONim27ZdAZQy8xRmHIz9RDZ5AzlqdcC93N3FBCUBSzyUCQNrXN5j8vSHgBQAAMBtAAJ8RH0nGJiLtrn3LXHNhICmZPqMkkiexntMYTEzM/9eoWPbUwDXsRy4VLyZasWrN5FXHp646pYfloUwxUXSy0mYhbSSPOrj4FKgCLj88WOUr2I0e1bVhEBmA3yMMZ9XfEGaW7qJwrYUxeW45JjdpLHRujEafTjhtI6V1RxvkjF/wAtcYVKlVSlsPuSGERr1suSvd+E+rtQ60scVceQ5svJ2II9KwQN1fsWPkLEidM/5I38+xjSyyII1LXT/GfIpy0KOBqjcpyYdx1ifHUjRjMMeSnyK+O1yYFuYtOl2sWPV3Vf1e6OHm71e1lcdkofQkdvcFgc0epCeSu2XsP7dzPoRkw7j/Zc1PdSGOi+U+LPFOtJNsnA9VP5W8exyYYiDKiuevFaimlKaUppSmlKfh2eXu/fSlTbHmQrqxbdlNvKzqiqnVenq2Uk7qZksKO7keQ3uObbm3aD/IEKAIucLmvxX1LiDgQcmHY/wOYOIxrKsyMGUwwyI6fbt1GBwrtlZeXMOfJnD1wuXa3Bh06HBP8AotuVJ4INMKElfuUvHiQ2Cnm08nYgj0rBA3/O/S8nim6xi2OvqRugy83RcDrG3SZKV2nxXyCc1TbcDVG5T5SuZaZwUZkzNs46hg54Y3IxQo1x16La82RUraj1CS3b9RlI6b78JLqgw46jZPFSmwCRxH6DuHI2ixQFxBjH7Y/ifqc65HlLaW6wtElJME5kfu/ATnpXKtLr3UFf/9k=");
+}
+.desc {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 16px;
+  line-height: 1.42857143;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+}
+.btn {
+	display: block;
+	margin-bottom: 0;
+	font-weight: 400;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	background-color: #347433;
+	border-color: #347433;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+  color: white;
+}
+.start-btn {
+	margin-bottom: 10px;
+	color: #fdfd88;
+	font-weight: bold;
+}
+.share-btn.other-button-hover {
+	background-color: #3BB639;
+	border-color: #3BB639;
+}
+.view-content {
+	margin-top: 30px;
+}
+.radio-group {
+	margin-top: 20px;
+}
+.question-title {
+}
+.radio-item {
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+.score-title {
+	color: #a94442;
+	font-size: 26px;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+  font-weight: bold;
+  padding: 8px 0;
+  text-align: center;
+}
+.detail {
+  color: #222;
+  font-size: 16px;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+.detail text {
+	font-weight: bold;
+}
+.hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 0;
+	border-top: 1px solid #eee;
+}

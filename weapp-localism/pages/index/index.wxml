@@ -1,0 +1,31 @@
+<view class="content">
+	<view class="title center">★2014年最难新疆话专业八级考试★</view>
+	<view class="tips center">已有<span>{{partner}}</span>人参与测试</view>
+
+	<view class="panel-body">
+		<block wx:if="{{isScore}}">
+				<view class="score-title">{{ScoreTitle}}</view>
+				<view class="hr"></view>
+				<view class="detail"><text>详细分析:</text>{{ScoreDesc}}</view>
+				<button class="btn share-btn" open-type="share" hover-class="other-button-hover">{{shareTxt}}</button>
+		</block>
+		<block wx:else>
+			<span class="edit-ico"></span>
+			<view wx:if="{{isTest}}">
+				<view class="desc">{{desc}}</view>
+				<button class="btn start-btn" bindtap="startTest">开始测试</button>
+				<button class="btn share-btn" open-type="share" hover-class="other-button-hover">{{shareData}}</button>
+			</view>
+			<view wx:else class="view-content">
+					<text class="question-title">{{title}}</text>
+					<radio-group class="radio-group" bindchange="radioChange">
+					  <label class="radio-item" wx:for="{{items}}" wx:key="{{index}}">
+					    <radio value="{{item}}" checked="{{isStatus}}"/>{{item}}
+					  </label>
+					</radio-group>
+			</view>
+			
+		</block>
+	</view>
+
+</view>
