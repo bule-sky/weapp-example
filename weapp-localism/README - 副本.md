@@ -30,6 +30,13 @@
 	> desc   	评分等级描述语 
 3. scoreRank  —  存放该项目分数等级数组，分为七个等级
 
+### 逻辑结构分析：
+
+- 页面require引进default文件数据。
+- 根据isTest布尔值默认显示测试界面，点击测试执行修改isTest并加装loadQuest函数
+
+
+
 ### 项目截图:
 
 <img src="https://github.com/bule-sky/weapp-example/blob/master/weapp-localism/Screenshots/Home.png" width="320px" style="display:inline;">
