@@ -1,0 +1,11 @@
+<div class="cms-tpl">
+	<ul>
+		{%for(var i in this.datas){%}
+			{%if(this.datas[i].age < 30){%}
+				<li>我的名字是{%this.datas[i].name%}，我的年龄是{%this.datas[i].age%}</li>	
+			{%}else{%}
+				<li>my name is {%this.datas[i].name%} ,my age is a sercet.</li>
+			{%}%}
+		{%}%}
+	</ul>
+</div>
