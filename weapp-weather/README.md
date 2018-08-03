@@ -18,6 +18,13 @@
 1、百度api ：https://api.map.baidu.com  
 2、天气api ：http://wthrcdn.etouch.cn/weather_mini
 
+### 逻辑思路：
+1、默认加装的时候调用loadInfo根据微信接口wx.getLocation
+获取当前的经纬度坐标；
+2、然后根据经纬度调用百度接口的api，获取当前城市名；
+3、再根据当前城市名调用天气预报接口，然后根据返回过来的数据进行拼接整理。（http://wthrcdn.etouch.cn）
+
+
 ### 项目截图:
 
 <img src="https://github.com/bule-sky/weapp-example/blob/master/weapp-weather/Screenshots/home.png" width="320px" style="display:inline;">
